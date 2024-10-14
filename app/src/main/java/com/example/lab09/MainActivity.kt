@@ -138,14 +138,3 @@ fun Contenido(
 fun ScreenInicio() {
     Text("INICIO")
 }
-
-// Asegúrate de tener implementadas las siguientes funciones
-@Composable
-fun ScreenPosts(navController: NavHostController, servicio: PostApiService) {
-    // Lógica para mostrar los posts
-}
-
-@Composable
-fun ScreenPost(navController: NavHostController, servicio: PostApiService, id: Int) {
-    // Lógica para mostrar un post específico
-}
